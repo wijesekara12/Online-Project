@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	background-color: #cccccc;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*Design a Header ----------------------------------*/
+ul.header-1{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+	overflow: hidden;
+
+}
+li.header-1{
+	float: left;
+}
+li.cart{
+	float: right;
+}
+
+li b{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li b:hover{
+	color: blue;
+}
+
+
+#search-bar{
+	width: 550px;
+	height: 40px;
+	border-radius: 12px;
+	outline: none;
+	border: none;
+	padding-left: 0.5rem; 
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#search-bar::placeholder {
+	color: #b1b1b1;
+}
+
+#search-bar-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 12px;
+	color: black;
+	outline: none;
+	border: none;
+	font-size: 1.1rem;
+}
+#search-bar-btn{
+	cursor: pointer;
+	background-color: #bbbbbb;
+	transition: all 0.4s ease-out;
+}
+ul.header-2{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #24262b;
+	overflow: hidden;
+
+}
+li.header-2{
+	float: left;
+}
+li.bar{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li.bar{
+	float: right;
+}
+li.c{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/*Design a slide home page photos ------------------------------------*/
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 25s slider infinite;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+
+}
+.slid{
+	width: 1000px;
+	height: 550px;
+	margin-left: 200px;
+}
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400;
+	}
+}
+
+/*Design a Footer -------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	margin: auto;
+	max-width: 1800px
+	
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+	padding: 30px 0;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width:50px;
+}
+
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff
+	display: block;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 5px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+
+}
+#footer-email{
+	width: 450px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	padding-left: 0.5rem; 
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+	color: #b1b1b1;
+}
+
+#footer-email-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #f9423D;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+}
+#footer-email-btn{
+	cursor: pointer;
+	background-color: #e91e63;
+	transition: all 0.4s ease-out;
+}
+
+.footer-bottom{
+	text-align: center;
+	color: #24262b;
+	padding-top: 70px;
+	font-size: 10px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 574px){
+	.footer-col{
+		width: 100%;
+		
+	}
+}
+
