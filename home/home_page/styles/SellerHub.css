@@ -1,0 +1,342 @@
+/*IT20633240
+Lakshan W.R.S.M.M
+Group MLB_02.01_06
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*Design a Header ----------------------------------*/
+ul.header-1{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+	overflow: hidden;
+
+}
+li.header-1{
+	float: left;
+}
+li.cart{
+	float: right;
+}
+
+li b{
+	display: block;
+	color: black;
+	cursor: pointer;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li b:hover{
+	color: blue;
+}
+
+
+#search-bar{
+	width: 550px;
+	height: 40px;
+	border-radius: 12px;
+	outline: none;
+	border: none;
+	padding-left: 0.5rem; 
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#search-bar::placeholder {
+	color: #b1b1b1;
+}
+
+#search-bar-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 12px;
+	color: black;
+	outline: none;
+	border: none;
+	font-size: 1.1rem;
+}
+#search-bar-btn{
+	cursor: pointer;
+	background-color: #bbbbbb;
+	transition: all 0.4s ease-out;
+}
+ul.header-2{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #24262b;
+	overflow: hidden;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: #24262b;
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*seller Hub */
+ul.header-3{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #24262b;
+	overflow: hidden;
+
+}
+li.text-seller{
+	float: left;
+	font-size: 35px;
+}
+li.text-user{
+	float: left;
+}
+
+li.text-right{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+li f{
+	display: block;
+	color: skyblue;
+	cursor: pointer;s
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ul.header-4{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #24262b;
+	overflow: hidden;
+
+}
+li.tabs{
+	float: left;
+}
+li a{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*End Header ------------------------------------*/
+
+/*Seller body part ------------------------------------*/
+
+.b-container{
+	margin: auto;
+	max-width: 1800px
+	
+}
+.row{
+	height: 50%;
+}
+/* Float four columns side by side */
+.column {
+  width: 25%;
+  padding: 100px;
+}
+
+.column p:not(:last-child){
+	margin-bottom: 10px;
+	
+}
+
+p{
+	color: #2d4f70;
+	cursor: pointer;
+	line-height: 35px;
+
+	}
+
+
+/*Design a Footer -------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	margin: auto;
+	max-width: 1800px
+	
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: #24262b;
+	padding: 30px 0;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width:50px;
+}
+
+
+.footer-col p:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col p{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff
+	transition: all 0.3s ease;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	color: #bbbbbb;
+}
+
+
+#footer-email{
+	width: 450px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	padding-left: 0.5rem; 
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+	color: #b1b1b1;
+}
+
+#footer-email-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #f9423D;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+}
+#footer-email-btn{
+	cursor: pointer;
+	background-color: #e91e63;
+	transition: all 0.4s ease-out;
+}
+
+.footer-bottom{
+	text-align: center;
+	color: #24262b;
+	padding-top: 70px;
+	font-size: 10px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 574px){
+	.footer-col{
+		width: 100%;
+		
+	}
+}
+

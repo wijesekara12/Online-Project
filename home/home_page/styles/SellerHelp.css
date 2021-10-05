@@ -1,0 +1,56 @@
+/*IT20633240
+Lakshan W.R.S.M.M
+Group MLB_02.01_06
+*/
+
+/*Seller-help body part ------------------------------------*/
+
+.bg-text {
+  font-weight: bold;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  border: 3px solid #00ffff;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+
+form
+{
+  margin-top: 75px;
+
+}
+.form-control
+{
+  width: 700px;
+  background: #e6e6e6;
+  border: none;
+  outline: none;
+  border-bottom: 1px black;
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input
+{
+  height: 45px;
+}
+
+form .submit
+{
+  background: #000000;
+  border-color: black;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+form .submit:hover
+{
+  background-color: #424242;
+  cursor: pointer;
+}
